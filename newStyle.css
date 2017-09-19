@@ -26,6 +26,17 @@ p {
     box-shadow: 5px 5px 5px #aaa;
 }
 
+.my-highlight{
+    color: orangered;
+    text-decoration: overline;
+    font-size: 4rem;
+}
+
+.my-hr{
+    width: 20%;
+    border: 10px solid orangered;
+    margin-left: 0;
+}
 
 .nice {
     color: blue;
