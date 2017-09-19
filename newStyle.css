@@ -13,6 +13,20 @@ p {
     background-color: yellow;
 }
 
+.my-body{
+    background-color: #f3f3f3;
+}
+
+.my-container{
+    border: 1px solid #aaa;
+    background-color: white;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px #aaa;
+}
+
+
 .nice {
     color: blue;
 }
