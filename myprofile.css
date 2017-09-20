@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
 
+.my-parallax{
+    min-height: 80vh;
+    background-image: url('splash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    }
+
 div {
     max-width: 400px;
     margin: auto;
