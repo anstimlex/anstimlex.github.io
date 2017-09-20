@@ -31,6 +31,12 @@
     background-image: url('stripe_background.png');
 }
 
+.my-body {
+    background-color: #FFFFFF;
+    font-family: 'lato';
+    color: white;
+}
+
 .my-image-2 {
     display: block;
     max-width: 200px;
@@ -54,11 +60,6 @@
     color: orangered;
     text-decoration: overline;
     font-size: 4rem;
-}
-
-.my-body {
-    background-color: #212121;
-    font-family: 'lato';
 }
 
 .my-paragraph {
