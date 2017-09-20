@@ -8,132 +8,6 @@
     background-attachment: fixed;
 }
 
-.my-image-2 {
-    display: block;
-    max-width: 200px;
-    margin: auto;
-    background-color: black;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-span {
-    color: purple;
-}
-
-p {
-    background-color: yellow;
-}
-
-.my-body {
-    background-color: #f3f3f3;
-}
-
-.my-container {
-    border: 1px solid #aaa;
-    background-color: white;
-    max-width: 600px;
-    margin: 10px auto;
-    padding: 1rem;
-    box-shadow: 5px 5px 5px #AAAAAA;
-}
-
-.my-highlight {
-    color: orangered;
-    text-decoration: overline;
-    font-size: 4rem;
-}
-
-.my-hr {
-    width: 20%;
-    border: 10px solid orangered;
-    margin-left: 0;
-}
-
-.nice {
-    color: blue;
-}
-
-.nicer {
-    color: red;
-    background-color: green
-}
-
-
-/*1. Make the background color dark gray: #212121*/
-
-
-/*2. Change the font family to: 'lato'*/
-
-.my-body {
-    background-color: #212121;
-    font-family: 'lato';
-}
-
-
-/*3. Enlarge the font size to: 4rem*/
-
-
-/*4. Thicken the font weight to: 900*/
-
-
-/*5. Change the text color to: white*/
-
-.my-title {
-    font-size: 4rem;
-    font-weight: 900;
-    color: white;
-}
-
-
-/*6. Enlarge the font size to: 1.25rem*/
-
-
-/*7. Thicken the font weight to: 400*/
-
-
-/*8. Change the text color to: orangered*/
-
-
-/*9. Change the background color to: white*/
-
-.my-subtitle {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: orangered;
-    background-color: white;
-}
-
-
-/*10. Enlarge the font size to: 3rem*/
-
-
-/*11. Thin the font weight to: 100*/
-
-
-/*12. Change the text color to: white*/
-
-.my-paragraph {
-    font-size: 3rem;
-    font-weight: 100;
-    color: white;
-}
-
-
-/*13. add a text shadow with the following specs:
-    horizontal offset: 2px
-    vertical offset: 2px
-    shadow blur: 0
-    color: orangered*/
-
-.my-strong {
-    text-shadow: 2px 2px 0 orangered;
-}
-
-.my-body {
-    background-image: url('stripe_background.png');
-}
-
 .my-container {
     border: 1px solid #aaa;
     background-color: white;
@@ -153,9 +27,17 @@ p {
     margin: auto;
 }
 
-.my-hr {
-    max-width: 300px;
-    border: 10px solid orangered;
+.my-body {
+    background-image: url('stripe_background.png');
+}
+
+.my-image-2 {
+    display: block;
+    max-width: 200px;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .my-face {
@@ -168,26 +50,44 @@ p {
     margin-top: -100px;
 }
 
+.my-highlight {
+    color: orangered;
+    text-decoration: overline;
+    font-size: 4rem;
+}
 
-/*1. bold the text with font weight: 900*/
+.my-body {
+    background-color: #212121;
+    font-family: 'lato';
+}
 
+.my-paragraph {
+    font-size: 3rem;
+    font-weight: 100;
+    color: white;
+}
+.my-title {
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+}
 
-/*2. remove the underline decoration*/
+.my-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: orangered;
+    background-color: white;
+}
 
-
-/*3. change the text color to black*/
+.my-strong {
+    text-shadow: 2px 2px 0 orangered;
+}
 
 .my-link {
     font-weight: 900;
     text-decoration: none;
     color: black;
 }
-
-
-/*4. invert the color: text is white, background is black*/
-
-
-/*5. add a left padding of: 1rem*/
 
 .my-link:hover,
 .my-link:active {
@@ -196,7 +96,15 @@ p {
     padding-left: 1rem;
 }
 
-
-/*you can optionally style a visited state*/
-
 .my-link:visited {}
+
+.my-hr1 {
+    max-width: 300px;
+    border: 10px solid orangered;
+}
+
+.my-hr2 {
+    width: 20%;
+    border: 10px solid orangered;
+    margin-left: 0;
+}
