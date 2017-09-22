@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="myprofile.css">
+    <link rel="stylesheet" href="yatim.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
@@ -18,38 +18,82 @@
 
 <body class="my-body">
     <div class="my-parallax">
-
-        <div>
             <div class="row">
                 <div class="col-12">
                     <div class="jumbotron">
-                        <h1>My Profile</h1>
-                        <img src="yatim.jpg" alt="logo" class="my-face">
-                        <p>Some description text
-                        </p>
-                        <form method="POST" action="https://script.google.com/macros/s/AKfycbx5meZNoNWQ2LnAn89C4vX-ki61mLJCz7Cl6l8afh6qWowXKXA/exec">
-                            <div class="form-group">
-                                <label for="name-id">Name</label>
-                                <input type="text" name="NAME" id="name-id" class="form-control">
+                        <div class="container-fluid">
+                            <div class="row flex-items-xs-middle flex-items-xs-center flex-items-md-right my-full-height">
+                                <div class="col-xs-10 col-md-6 col-lg-4 flex-xs-middle my-intro-panel">
+                                    <h1 class="display-1">hi yatim</h1>
+                                    <h6>IT guy</h6>
+                                    <hr class="my-thick-hr">
+                                    <p>
+                                        CODING
+                                        trying...
+                                    </p>
+                                    <div class="my-contactMe">
+                                            <ul class="fa-ul">
+                                                <li>
+                                                    <i class="fa-li fa fa-phone"></i>
+                                                    <!-- 1. create an anchor link that opens a phone call -->
+                                                    <!-- nb: may not work on some windows pc (used mainly for mobile phones)-->
+                                                    <a href="tel:+65123456789">123456789</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fa-li fa fa-envelope"></i>
+                                                    <!-- 2. create an anchor link that opens an email -->
+                                                    <!-- nb: does not work on chrome. safari is good -->
+                                                    <a href="mailto:healthyboy88@email.com">healthyboy88@email.com</
+                                                a>
+                                                </li>
+                                                <li>
+                                                <i class="fa-li fa fa-home"></i>
+                                                <!-- 3. create an anchor link that opens the google map
+                                                location in a new tab -->
+                                                <!-- hint: new tab attribute >> target="_blank" -->
+                                                <a href="https://goo.gl/maps/6FSZvBe8A662"
+                                                target="_blank">79 Ayer Rajah Crescent</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    <hr class="my-thin-hr">
+                                    <form method="post" action=""https://script.google.com/macros/s/AKfycbx5meZNoNWQ2LnAn89C4vX-ki61mLJCz7Cl6l8afh6qWowXKXA/exec">
+                                        <fieldset>
+                                            <legend>Contact Me</legend>
+                                            <div class="form-group">
+                                                <label for="name-id">
+                                                            name
+                                                        </label>
+                                                <input type="text" name="NAME" id="name-id" class="form-control my-input" required>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="email-id">
+                                                            email
+                                                        </label>
+                                                <input type="email" name="EMAIL" id="email-id" class="form-control my-input" required>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-default my-btn form-control" id="submit-id">submit</button>
+
+                                                <div class="alert alert-danger alert-dismissible fade in" hidden id="alert-id">
+                                                    <button type="button" class="close" id="close-id">
+                                                                <span>&times;</span>
+                                                            </button>                                                    Thank you! We'll get in touch.
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+
+                                </div>
                             </div>
+                        </div>
+
+
+                        ***
+
                         
-                            <div class="form-group">
-                                <label for="email-id">Email</label>
-                                <input type="email" name="EMAIL" id="email-id" class="form-control">
-                            </div>
-                        
-                            <div class="form-group">
-                                <input type="submit" class="btn btn-primary">
-                            </div>
-                        </form>
-                        <p>
-                            <a class="btn btn-primary btn-lg" href="#">
-                        Submit
-                        </a>
-                            <a class="btn btn-outline-primary btn-lg" href="#">
-                        Reset
-                        </a>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -122,31 +166,7 @@
     </p>
 </div>
 
-<div class="my-contactMe">
-    <ul class="fa-ul">
-        <li>
-            <i class="fa-li fa fa-phone"></i>
-            <!-- 1. create an anchor link that opens a phone call -->
-            <!-- nb: may not work on some windows pc (used mainly for mobile phones)-->
-            <a href="tel:+65123456789">123456789</a>
-        </li>
-        <li>
-            <i class="fa-li fa fa-envelope"></i>
-            <!-- 2. create an anchor link that opens an email -->
-            <!-- nb: does not work on chrome. safari is good -->
-            <a href="mailto:healthyboy88@email.com">healthyboy88@email.com</
-        a>
-        </li>
-        <li>
-        <i class="fa-li fa fa-home"></i>
-        <!-- 3. create an anchor link that opens the google map
-        location in a new tab -->
-        <!-- hint: new tab attribute >> target="_blank" -->
-        <a href="https://goo.gl/maps/6FSZvBe8A662"
-        target="_blank">79 Ayer Rajah Crescent</a>
-        </li>
-    </ul>
-</div>
+
 
 
 </body>
