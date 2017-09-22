@@ -28,10 +28,6 @@
 }
 
 .my-body {
-    background-image: url('stripe_background.png');
-}
-
-.my-body {
     background-color: #FFFFFF;
     font-family: 'lato';
     color: white;
