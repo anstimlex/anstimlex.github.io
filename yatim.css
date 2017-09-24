@@ -121,7 +121,7 @@ p {
 .my-body{
     background-color: #f3f3f3;
 }
-body{
+my-body{
     background-image: url('splash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
