@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('https://code.ionicframework.com/assets/fonts/28882F_0_0.eot');
+  src: url('https://code.ionicframework.com/assets/fonts/28882F_0_0.eot?#iefix') format('embedded-opentype'), url('https://code.ionicframework.com/assets/fonts/28882F_0_0.woff') format('woff'), url('https://code.ionicframework.com/assets/fonts/28882F_0_0.ttf') format('truetype'); }
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Medium';
+  src: url('https://code.ionicframework.com/assets/fonts/28882F_1_0.eot');
+  src: url('https://code.ionicframework.com/assets/fonts/28882F_1_0.eot?#iefix') format('embedded-opentype'), url('https://code.ionicframework.com/assets/fonts/28882F_1_0.woff') format('woff'), url('https://code.ionicframework.com/assets/fonts/28882F_1_0.ttf') format('truetype'); }
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Medium';
+  src: url('https://code.ionicframework.com/assets/fonts/28882F_1_0.eot');
+  src: url('https://code.ionicframework.com/assets/fonts/28882F_1_0.eot?#iefix') format('embedded-opentype'), url('https://code.ionicframework.com/assets/fonts/28882F_1_0.woff') format('woff'), url('https://code.ionicframework.com/assets/fonts/28882F_1_0.ttf') format('truetype'); }
+
+@font-face {font-family: 'AvenirNextLTPro-Thin';src: url('https://code.ionicframework.com/assets/fonts/2E48FA_0_0.eot');src: url('https://code.ionicframework.com/assets/fonts/2E48FA_0_0.eot?#iefix') format('embedded-opentype'),url('https://code.ionicframework.com/assets/fonts/2E48FA_0_0.woff2') format('woff2'),url('https://code.ionicframework.com/assets/fonts/2E48FA_0_0.woff') format('woff'),url('https://code.ionicframework.com/assets/fonts/2E48FA_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'AvenirNextLTPro-Bold';src: url('https://code.ionicframework.com/assets/fonts/2E48FA_1_0.eot');src: url('https://code.ionicframework.com/assets/fonts/2E48FA_1_0.eot?#iefix') format('embedded-opentype'),url('https://code.ionicframework.com/assets/fonts/2E48FA_1_0.woff2') format('woff2'),url('https://code.ionicframework.com/assets/fonts/2E48FA_1_0.woff') format('woff'),url('https://code.ionicframework.com/assets/fonts/2E48FA_1_0.ttf') format('truetype');}
+
+
+
+@font-face {
+  font-family: 'AvenirNextLTPro-UltLt';
+  src: url('https://code.ionicframework.com/assets/fonts/29CC36_0_0.eot');
+  src: url('https://code.ionicframework.com/assets/fonts/29CC36_0_0.eot?#iefix') format('embedded-opentype'), url('https://code.ionicframework.com/assets/fonts/29CC36_0_0.woff') format('woff'), url('https://code.ionicframework.com/assets/fonts/29CC36_0_0.ttf') format('truetype'); }
+
+html, body {
+  overflow: auto;
+  min-height:100%;
+  min-width:100%;
+}
+body {
+  font-family: 'AvenirNextLTPro-Regular', 'Helvetica Neue', Arial, sans-serif;
+  background-color: white;
+}
+
+h1,h2,h3,h4,h5 {
+  color: #2A2D34;
+}
+h1, h2, h3 {
+  font-family: 'AvenirNextLTPro-Medium', 'Helvetica Neue', Arial, sans-serif;
+}
+/*
+.btn.btn-primary, button.btn-primary {
+  background-color: #4E91F7;
+  border: none;
+}
+*/
+
+#share {
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  padding: 20px 0;
+}
+#header .title {
+  font-size: 16px;
+  margin: 0;
+}
+#header input {
+  display: inline-block;
+  width: auto;
+  margin-left: 10px;
+}
+
+#footer {
+  text-align: center;
+  margin: 40px 0;
+}
+#footer h4 {
+  font-size: 18px;
+  color: #C3C9D7;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#footer a {
+  color: #C3C9D7;
+}
+#footer h5 {
+  font-size: 16px;
+  color: #C3C9D7;
+}
+
+#locked {
+  text-align: center;
+  max-width: 300px;
+  margin: 80px auto 0 auto;
+}
+#locked h5 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+#phone-wrapper {
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.device-preview {
+  margin: auto;
+  margin-top: 20px;
+  background: url('/img/dashboard/devices-sprite-transparent.png') no-repeat transparent;
+  background-size: 100%;
+}
+
+body.preview-ios .device-preview {
+  width: 467px;
+  height: 800px;
+}
+body.preview-android .device-preview {
+  width: 467px;
+  height: 836px;
+  background-position: 0px -780px;
+}
+body.preview-android .device-preview #statusbar {
+  background: url('/img/dashboard/android-statusbar.png') no-repeat transparent center;
+  top: 84px;
+  left: 54px;
+  width: 360px;
+  background-size: 100%;
+}
+
+body.preview-android .device-preview .content iframe {
+  width: 360px;
+  height: 571px;
+  top: 104px;
+  left: 54px;
+}
+
+.device-preview .content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.device-preview .content iframe {
+  position: absolute;
+  z-index: 0;
+  width: 320px;
+  height: 568px;
+
+  top: 86px;
+  left: 74px;
+  border: 0;
+  background-color: white;
+  transition: opacity .2s ease-in-out;
+}
+
+iframe.mobile {
+  width: 100%;
+  height: 100%;
+  border:0px;
+}
+
+#platform-toggle {
+}
+#platform-toggle > div {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 12px;
+  border: 1px solid #3D89F9;
+  color: #3D89F9;
+  cursor: pointer;
+  min-width: 112px;
+}
+#platform-toggle > div.active {
+  background-color: #3D89F9;
+  color: #fff;
+}
+#platform-toggle > div:first-child {
+  border-radius: 3px 0 0 3px;
+  border-right: none;
+}
+#platform-toggle > div:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+#statusbar {
+  position: absolute;
+  top: 87px;
+  left: 73px;
+  z-index: 2;
+  width: 320px;
+  height: 20px;
+  background: url('/img/dashboard/iphone-statusbar-black.png') no-repeat transparent center;
+  background-size: 100%;
+}
+
+#dim-lights {
+  color: #111;
+  text-decoration: none;
+  margin-right: 10px;
+  display: inline-block;
+}
+#dim-lights i {
+  font-size: 20px;
+}
+
+body.dim {
+  background-color: #111;
+  color: #c3c9d7;
+}
+
+body.dim #dim-lights {
+  color: #fff;
+}
+
+body.dim #header .title {
+  color: #fff;
+}
+/*
+body.dim #statusbar {
+  background: url('/img/dashboard/iphone-statusbar-white.png') no-repeat transparent;
+}
+*/
