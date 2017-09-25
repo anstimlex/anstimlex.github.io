@@ -1,0 +1,12 @@
+body.header-hack.platform-ios ion-nav-bar .bar.bar-header, body.header-hack.platform-ios ion-side-menu > .bar.bar-header{
+  height: 64px;
+}
+body.header-hack.platform-ios ion-nav-bar .bar.bar-header > *, body.header-hack.platform-ios ion-side-menu > .bar.bar-header > * {
+  margin-top: 20px !important;
+}
+body.header-hack.platform-ios .has-header {
+  top: 64px !important;
+}
+*::-webkit-scrollbar { 
+  display: none; 
+}
